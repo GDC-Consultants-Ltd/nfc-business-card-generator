@@ -2,13 +2,13 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import QrCodeGenerator from './QrCodeGenerator';
+import MainPage from './components/MainPage';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<QrCodeGenerator />} />
+        <Route path="/" element={<MainPage />} />
       </Routes>
     </Router>
   );
